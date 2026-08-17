@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema de Eventos Acadêmicos</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Sistema de Eventos Acadêmicos</h1>
+        <p>Gerenciamento de eventos da instituição</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#inicio">Início</a> |
+        <a href="#cadastro">Cadastrar Evento</a> |
+        <a href="#eventos">Consultar Eventos</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <section id="inicio">
+            <h2>Bem-vindo</h2>
+            <p>
+                Consulte e cadastre eventos acadêmicos.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="cadastro">
+            <h2>Cadastro de Evento</h2>
+
+            <form>
+
+                <label for="nome">Nome do evento:</label>
+                <input type="text" id="nome" name="nome">
+
+                <br><br>
+
+                <label for="descricao">Descrição:</label>
+                <br>
+                <textarea id="descricao" name="descricao"></textarea>
+
+                <br><br>
+
+                <label for="data">Data:</label>
+                <input type="date" id="data" name="data">
+
+                <br><br>
+
+                <label for="horario">Horário:</label>
+                <input type="time" id="horario" name="horario">
+
+                <br><br>
+
+                <label for="local">Local:</label>
+                <input type="text" id="local" name="local">
+
+                <br><br>
+
+                <label for="responsavel">Responsável:</label>
+                <input type="text" id="responsavel" name="responsavel">
+
+                <br><br>
+
+                <label for="vagas">Quantidade de vagas:</label>
+                <input type="number" id="vagas" name="vagas">
+
+                <br><br>
+
+                <button type="submit">Cadastrar Evento</button>
+
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="eventos">
+            <h2>Eventos Cadastrados</h2>
+
+            <article>
+                <h3>Semana de Tecnologia</h3>
+
+                <p><strong>Descrição:</strong> Evento sobre tecnologia e inovação.</p>
+                <p><strong>Data:</strong> 20/09/2026</p>
+                <p><strong>Horário:</strong> 19:00</p>
+                <p><strong>Local:</strong> Auditório Principal</p>
+                <p><strong>Responsável:</strong> João Silva</p>
+                <p><strong>Vagas:</strong> 100</p>
+            </article>
+
+            <hr>
+
+            <article>
+                <h3>Workshop de Programação</h3>
+
+                <p><strong>Descrição:</strong> Workshop de introdução à programação.</p>
+                <p><strong>Data:</strong> 25/09/2026</p>
+                <p><strong>Horário:</strong> 14:00</p>
+                <p><strong>Local:</strong> Laboratório de Informática</p>
+                <p><strong>Responsável:</strong> Maria Souza</p>
+                <p><strong>Vagas:</strong> 50</p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Sistema de Eventos Acadêmicos - 2026</p>
+    </footer>
+
+</body>
+
+</html>
